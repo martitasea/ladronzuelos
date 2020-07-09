@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>El ladronzuelo de bicicletas</title>
+  </head>
+  <body>
+    <div id="container">
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>EL LADRONZUELO DE BICICLETAS</legend>
+          <br />
+          <span>¿CUANDO SE PRODUJO EL ROBO?</span><br />
+          <label>Día: </label><input type="date" id="fecha" value="fecha" />
+          <label>Hora: </label
+          ><input type="time" id="hora" value="hora" /><br /><br />
+          <span>¿CÓMO ERA LA BICICLETA?</span><br />
+          <label>Color: </label><input type="color" id="color" value="hora" />
+          <label>Rango de precio: </label
+          ><input type="range" id="range" /><br /><br />
+
+          <span>¿QUÉ TIPO DE BICICLETA ERA?</span><br />
+          <select size="12">
+            <optgroup label="PASEO">
+              <option>Señorial</option>
+              <option>Anti plebeyos</option>
+              <option>Por encima del hombro</option>
+            </optgroup>
+            <optgroup label="MONTAÑA">
+              <option>Gamusinos</option>
+              <option>Huele flores premium</option>
+              <option>Fango lover</option>
+            </optgroup>
+            <optgroup label="CARRERAS">
+              <option>Metro y medio</option>
+              <option>3 de la tarde fluorescente edition</option>
+              <option>Grupitors</option>
+            </optgroup> </select
+          ><br /><br />
+          <span>¿QUÉ ACCESORIOS TENÍA?</span><br />
+          <input type="checkbox" name="accesorios" value="Ruedines" /><label
+            >Ruedines</label
+          ><br />
+          <input type="checkbox" name="accesorios" value="Pegatinas" /><label
+            >Pegatinas</label
+          ><br />
+          <input type="checkbox" name="accesorios" value="Cestita" /><label
+            >Cestita</label
+          ><br />
+          <input
+            type="checkbox"
+            name="accesorios"
+            value="Bomba de aire"
+          /><label>Bomba de aire</label><br />
+          <input type="checkbox" name="accesorios" value="Timbre" /><label
+            >Timbre</label
+          ><br />
+          <input type="checkbox" name="accesorios" value="Foco" />
+          <label>Foco</label><br /><br /><br />
+
+          <span>¿QUÉ MARCA ERA?</span><br />
+          <input list="marcas" name="marcas" />
+          <datalist id="marcas">
+            <option value="Specialized"></option>
+            <option value="Trek"></option>
+            <option value="Merida"></option>
+            <option value="Scott"></option>
+            <option value="Giant"></option>
+            <option value="Cube"></option>
+            <option value="Lapierre"></option>
+            <option value="Orbea"></option>
+            <option value="Cannondale"></option>
+            <option value="Bmc"></option>
+            <option value="Canyon"></option>
+            <option value="Look"></option>
+            <option value="Protek"></option>
+            <option value="Megamo"></option>
+            <option value="Pinarello"></option>
+            <option value="Bianchi"></option>
+            <option value="Bh"></option>
+            <option value="Factor"></option>
+            <option value="Ghost"></option>
+            <option value="Cervélo"></option>
+            <option value="Argon"></option>
+          </datalist>
+        </fieldset>
+        <br />
+        <input type="reset" />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
